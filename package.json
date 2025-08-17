@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "deploy": "npm run build && git subtree split --prefix dist -b gh-pages-deploy && git push origin gh-pages-deploy:gh-pages --force-with-lease && git branch -D gh-pages-deploy",
+    "deploy": "npm run build && git subtree split --prefix dist -b gh-pages-deploy && git fetch origin gh-pages && git push origin gh-pages-deploy:gh-pages --force-with-lease && git branch -D gh-pages-deploy",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -19,5 +19,3 @@
     "vite": "^5.4.0"
   }
 }
-
-
