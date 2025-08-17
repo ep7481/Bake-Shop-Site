@@ -6,9 +6,9 @@ export default function Hours() {
           <div className="col-lg-6">
             <h2 className="fw-bold mb-3">Hours & Location</h2>
             <ul className="list-unstyled small">
-              <li>Mon–Fri: 7:00 AM – 5:00 PM</li>
-              <li>Sat: 8:00 AM – 3:00 PM</li>
-              <li>Sun: Closed</li>
+              <li>HOURS TBD</li>
+              <li></li>
+              <li></li>
             </ul>
             <p className="mb-1">
               <a href="https://maps.google.com/?q=6%20Beaver%20Valley%20Pike%2C%20Willow%20Street%2C%20Pennsylvania" target="_blank" rel="noreferrer">
