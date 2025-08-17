@@ -14,9 +14,7 @@ export default function Navbar() {
             <li className="nav-item"><a className="nav-link" href="#menu">Menu</a></li>
             <li className="nav-item"><a className="nav-link" href="#gallery">Gallery</a></li>
             <li className="nav-item"><a className="nav-link" href="#hours">Hours</a></li>
-            <li className="nav-item">
-              <a className="nav-link btn btn-primary text-white ms-lg-3 px-3 py-2 btn-pill" href="#contact">Order / Contact</a>
-            </li>
+            <li className="nav-item"><a className="nav-link" href="#contact">Order / Contact</a></li>
           </ul>
         </div>
       </div>

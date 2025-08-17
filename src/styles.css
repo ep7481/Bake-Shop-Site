@@ -44,3 +44,8 @@ html { scroll-behavior: smooth; scroll-padding-top: var(--nav-height); }
 @media (max-width: 991.98px) {
   :root { --nav-height: 210px; }       /* typical mobile height */
 }
+
+
+.text-pink {
+  color: #ff00d4 !important;
+}
