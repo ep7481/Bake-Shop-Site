@@ -78,15 +78,13 @@ export default function Menu() {
               <div className="card-body">
                 <h5 className="card-title">Pastries</h5>
                 <ul className="list-unstyled small mb-0">
-                  <li className="d-flex justify-content-between"><span>Brownies</span><span>$5</span></li>
-                  <li className="d-flex justify-content-between"><span>1 Dozen Brownies</span><span>$55</span></li>
-                  <li className="d-flex justify-content-between"><span>Scones</span><span>$4</span></li>
-                  <li className="d-flex justify-content-between"><span>Cookie bar</span><span>$4</span></li>
-                  <li className="d-flex justify-content-between"><span>Iced cookie bar</span><span>$5</span></li>
-                  <li className="d-flex justify-content-between"><span>Rice Krispie treats</span><span>$5</span></li>
-                  <li className="d-flex justify-content-between"><span>Muffin</span><span>$4</span></li>
+                  <li className="d-flex justify-content-between"><span>Chocolate Chunk Brownie</span><span>$6</span></li>
+                  <li className="d-flex justify-content-between"><span>Scones</span><span>$5</span></li>
+                  <li className="d-flex justify-content-between"><span>Cookie bar</span><span>$5</span></li>
+                  <li className="d-flex justify-content-between"><span>Iced Cookie Bar</span><span>$6</span></li>
+                  <li className="d-flex justify-content-between"><span>Rice Krispie Treats</span><span>$5</span></li>
                   <li className="d-flex justify-content-between"><span>Dessert cup</span><span>$6</span></li>
-                  <li className="d-flex justify-content-between"><span>Tandy Cake</span><span>$5</span></li>
+                  <li className="d-flex justify-content-between"><span>Tandy Cake</span><span>$7</span></li>
                 </ul>
               </div>
             </div>
