@@ -85,7 +85,7 @@ export default function Menu() {
                   <li className="d-flex justify-content-between"><span>Iced Cookie Bar</span><span>$6</span></li>
                   <li className="d-flex justify-content-between"><span>Rice Krispie Treats</span><span>$5</span></li>
                   <li className="d-flex justify-content-between"><span>Dessert cup</span><span>$6</span></li>
-                  <li className="d-flex justify-content-between"><span>Tandy Cake</span><span>$7</span></li>
+                  <li className="d-flex justify-content-between"><span>Tandy Cake</span><span>$8</span></li>
                 </ul>
               </div>
             </div>
