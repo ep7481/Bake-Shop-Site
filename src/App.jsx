@@ -10,8 +10,29 @@ import Footer from "./components/Footer.jsx";
 
 export default function App() {
   useEffect(() => {
+    // Update footer year
     const el = document.getElementById("year");
     if (el) el.textContent = new Date().getFullYear();
+
+    // --- Scroll reveal setup ---
+    const els = document.querySelectorAll("[data-reveal]");
+    if (!els.length) return;
+
+    const io = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-in");
+            io.unobserve(entry.target); // reveal once
+          }
+        });
+      },
+      { threshold: 0.08 }
+    );
+
+    els.forEach((el) => io.observe(el));
+
+    return () => io.disconnect();
   }, []);
 
   return (
@@ -19,9 +40,8 @@ export default function App() {
       <Navbar />
       <Hero />
       <Menu />
-      <hr></hr>
+      <hr />
       <Gallery />
-      <hr></hr>
       <Hours />
       <Contact />
       <Footer />

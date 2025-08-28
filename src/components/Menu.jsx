@@ -1,9 +1,10 @@
 export default function Menu() {
   return (
-    <section id="menu" className="py-5">
+    <section id="menu" className="py-5" style={{ backgroundColor: "var(--brand)" }}>
+
       <div className="container">
         <div className="text-center mb-5">
-          <h2 className="fw-bold">Menu & Prices</h2>
+          <h2 className="fw-bold text-white">Menu & Prices</h2>
         </div>
 
         {/* Flavors Section */}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+  <rect width="200" height="200" fill="white"></rect>
+
+  <!-- pink sprinkle -->
+  <rect x="20" y="30" width="20" height="5" rx="2.5" fill="#ff6aa0" transform="rotate(25 30 32.5)"></rect>
+  <!-- blue sprinkle -->
+  <rect x="100" y="60" width="20" height="5" rx="2.5" fill="#7dd3fc" transform="rotate(-40 110 62.5)"></rect>
+  <!-- yellow sprinkle -->
+  <rect x="150" y="120" width="20" height="5" rx="2.5" fill="#fbbf24" transform="rotate(15 160 122.5)"></rect>
+  <!-- purple sprinkle -->
+  <rect x="50" y="150" width="20" height="5" rx="2.5" fill="#c084fc" transform="rotate(-60 60 152.5)"></rect>
+  <!-- mint sprinkle -->
+  <rect x="140" y="40" width="20" height="5" rx="2.5" fill="#34d399" transform="rotate(45 150 42.5)"></rect>
+  <!-- orange sprinkle -->
+  <rect x="70" y="90" width="20" height="5" rx="2.5" fill="#fb923c" transform="rotate(-20 80 92.5)"></rect>
+</svg>
