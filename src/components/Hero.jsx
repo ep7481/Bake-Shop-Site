@@ -13,7 +13,7 @@ export default function Hero() {
         />
 
         <h1 className="display-5 fw-bold text-pink" data-reveal data-reveal-delay="100">
-          Store Front Opening August 29th, 2025
+          Store Front Now Open!
         </h1>
 
         <a

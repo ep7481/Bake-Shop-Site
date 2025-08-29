@@ -6,7 +6,7 @@ export default function About() {
           <div className="col-lg-6">
             <h2 className="fw-bold mb-3">Handmade with love</h2>
             <p className="text-muted">
-              Pastry Arts graduate from YTI. Storefront opening in Willow Street on <strong>August 29, 2025</strong>.
+              Pastry Arts graduate from YTI. Storefront open on Willow Street!.
               Email orders to <a href="mailto:bailey@baileysbakeshoppe.com">bailey@baileysbakeshoppe.com</a>.
             </p>
             <ul className="list-unstyled mt-3 small">
