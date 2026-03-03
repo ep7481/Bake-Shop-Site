@@ -1,10 +1,10 @@
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-cream sticky-top shadow-sm">
+    <nav className="navbar navbar-expand-lg bakery-nav sticky-top">
       <div className="container">
         <a className="navbar-brand d-flex align-items-center gap-2" href="#home">
-          <img src="/logo.png" alt="Bailey’s Bake Shoppe" width="36" height="36" className="rounded-circle" />
-          <span className="brand">Bailey’s Bake Shoppe</span>
+          <img src="/logo.png" alt="Bailey's Bake Shoppe" width="40" height="40" className="rounded-circle" />
+          <span className="brand-text">Bailey's Bake Shoppe</span>
         </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
           <span className="navbar-toggler-icon"></span>

@@ -1,7 +1,6 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
-import About from "./components/About.jsx";
 import Menu from "./components/Menu.jsx";
 import Gallery from "./components/Gallery.jsx";
 import Hours from "./components/Hours.jsx";
@@ -10,11 +9,9 @@ import Footer from "./components/Footer.jsx";
 
 export default function App() {
   useEffect(() => {
-    // Update footer year
     const el = document.getElementById("year");
     if (el) el.textContent = new Date().getFullYear();
 
-    // --- Scroll reveal setup ---
     const els = document.querySelectorAll("[data-reveal]");
     if (!els.length) return;
 
@@ -23,7 +20,7 @@ export default function App() {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add("is-in");
-            io.unobserve(entry.target); // reveal once
+            io.unobserve(entry.target);
           }
         });
       },
@@ -31,7 +28,6 @@ export default function App() {
     );
 
     els.forEach((el) => io.observe(el));
-
     return () => io.disconnect();
   }, []);
 
@@ -40,7 +36,6 @@ export default function App() {
       <Navbar />
       <Hero />
       <Menu />
-      <hr />
       <Gallery />
       <Hours />
       <Contact />

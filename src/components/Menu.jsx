@@ -1,34 +1,39 @@
 export default function Menu() {
   return (
-    <section id="menu" className="py-5" style={{ backgroundColor: "var(--brand)" }}>
-
+    <section id="menu" className="menu-section">
       <div className="container">
         <div className="text-center mb-5">
-          <h2 className="fw-bold text-white">Menu & Prices</h2>
+          <h2 className="section-title fw-bold" data-reveal>Menu &amp; Prices</h2>
         </div>
 
         {/* Flavors Section */}
-        <div className="row mb-5">
+        <div className="row mb-5" data-reveal>
           <div className="col-12">
-            <div className="card shadow-sm">
-              <div className="card-body">
-                <h5 className="card-title">Cake Flavors</h5>
-                <p className="small mb-3">
-                  Chocolate, Vanilla, Red Velvet, Confetti, Marble, Pumpkin,
-                  Carrot, Blueberry, Coconut
-                </p>
-
-                <h5 className="card-title">Buttercream Icing Flavors</h5>
-                <p className="small mb-3">
-                  Vanilla, Chocolate, Espresso, Caramel, Oreo, Peanut Butter,
-                  Cream Cheese, Maple
-                </p>
-
-                <h5 className="card-title">Fillings</h5>
-                <p className="small mb-0">
-                  Raspberry, Strawberry, Mixed Berry, Caramel, Peanut Butter,
-                  Chocolate Ganache
-                </p>
+            <div className="card flavor-card shadow-sm">
+              <div className="card-body p-4">
+                <div className="row">
+                  <div className="col-md-4 mb-3 mb-md-0">
+                    <h5 className="fw-bold">Cake Flavors</h5>
+                    <p className="small mb-0">
+                      Chocolate, Vanilla, Red Velvet, Confetti, Marble, Pumpkin,
+                      Carrot, Blueberry, Coconut
+                    </p>
+                  </div>
+                  <div className="col-md-4 mb-3 mb-md-0">
+                    <h5 className="fw-bold">Buttercream Icing Flavors</h5>
+                    <p className="small mb-0">
+                      Vanilla, Chocolate, Espresso, Caramel, Oreo, Peanut Butter,
+                      Cream Cheese, Maple
+                    </p>
+                  </div>
+                  <div className="col-md-4">
+                    <h5 className="fw-bold">Fillings</h5>
+                    <p className="small mb-0">
+                      Raspberry, Strawberry, Mixed Berry, Caramel, Peanut Butter,
+                      Chocolate Ganache
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -37,56 +42,69 @@ export default function Menu() {
         {/* Menu Categories */}
         <div className="row g-4">
           {/* Cakes */}
-          <div className="col-md-4">
-            <div className="card h-100 shadow-sm">
+          <div className="col-md-4" data-reveal>
+            <div className="card menu-card shadow-sm">
+              <div className="card-header">Cakes</div>
               <div className="card-body">
-                <h5 className="card-title">Cakes</h5>
-                <ul className="list-unstyled small mb-0">
-                  <li className="d-flex justify-content-between"><span>2 Layer 6&quot; Cake</span><span>$55</span></li>
-                  <li className="d-flex justify-content-between"><span>2 Layer 8&quot; Cake</span><span>$70</span></li>
-                  <li className="d-flex justify-content-between"><span>3 Layer 6&quot; Cake</span><span>$75</span></li>
-                  <li className="d-flex justify-content-between"><span>3 Layer 8&quot; Cake</span><span>$100</span></li>
-                  <li className="d-flex justify-content-between"><span>2 Tier (6&quot; & 8&quot;)</span><span>$210</span></li>
-                  <li className="d-flex justify-content-between"><span>2 Tier (6&quot; & 10&quot;)</span><span>$245</span></li>
-                  <li className="d-flex justify-content-between"><span>2 Tier (8&quot; & 10&quot;)</span><span>$275</span></li>
-                  <li className="text-muted mt-2 small">* Customizations & Larger sizes available</li>
-                  <li className="text-muted small">* Fillings +$10</li>
-                </ul>
+                <div className="menu-item"><span className="item-name">2 Layer 6&quot; Cake</span><span className="item-price">$55</span></div>
+                <div className="menu-item"><span className="item-name">2 Layer 8&quot; Cake</span><span className="item-price">$70</span></div>
+                <div className="menu-item"><span className="item-name">3 Layer 6&quot; Cake</span><span className="item-price">$75</span></div>
+                <div className="menu-item"><span className="item-name">3 Layer 8&quot; Cake</span><span className="item-price">$100</span></div>
+                <div className="menu-item"><span className="item-name">2 Tier (6&quot; &amp; 8&quot;)</span><span className="item-price">$210</span></div>
+                <div className="menu-item"><span className="item-name">2 Tier (6&quot; &amp; 10&quot;)</span><span className="item-price">$245</span></div>
+                <div className="menu-item"><span className="item-name">2 Tier (8&quot; &amp; 10&quot;)</span><span className="item-price">$275</span></div>
+                <p className="text-muted small mt-3 mb-1">* Customizations &amp; Larger sizes available</p>
+                <p className="text-muted small mb-0">* Fillings +$10</p>
               </div>
             </div>
           </div>
 
           {/* Cupcakes */}
-          <div className="col-md-4">
-            <div className="card h-100 shadow-sm">
+          <div className="col-md-4" data-reveal data-reveal-delay="100">
+            <div className="card menu-card shadow-sm">
+              <div className="card-header">Cupcakes</div>
               <div className="card-body">
-                <h5 className="card-title">Cupcakes</h5>
-                <ul className="list-unstyled small mb-0">
-                  <li className="d-flex justify-content-between"><span>Single</span><span>$3</span></li>
-                  <li className="d-flex justify-content-between"><span>6 Pack</span><span>$18</span></li>
-                  <li className="d-flex justify-content-between"><span>12 Pack</span><span>$35</span></li>
-                  <li className="d-flex justify-content-between"><span>Specialty 12 Pack</span><span>$40</span></li>
-                  <li className="d-flex justify-content-between"><span>Mini 12 Pack*</span><span>$18</span></li>
-                  <li className="text-muted small">* Custom orders only</li>
-                </ul>
+                <div className="menu-item"><span className="item-name">Single</span><span className="item-price">$3</span></div>
+                <div className="menu-item"><span className="item-name">6 Pack</span><span className="item-price">$18</span></div>
+                <div className="menu-item"><span className="item-name">12 Pack</span><span className="item-price">$35</span></div>
+                <div className="menu-item"><span className="item-name">Specialty 12 Pack</span><span className="item-price">$40</span></div>
+                <div className="menu-item"><span className="item-name">Mini 12 Pack*</span><span className="item-price">$18</span></div>
+                <p className="text-muted small mt-3 mb-0">* Custom orders only</p>
               </div>
             </div>
           </div>
 
           {/* Pastries */}
-          <div className="col-md-4">
-            <div className="card h-100 shadow-sm">
+          <div className="col-md-4" data-reveal data-reveal-delay="200">
+            <div className="card menu-card shadow-sm">
+              <div className="card-header">Pastries</div>
               <div className="card-body">
-                <h5 className="card-title">Pastries</h5>
-                <ul className="list-unstyled small mb-0">
-                  <li className="d-flex justify-content-between"><span>Chocolate Chunk Brownie</span><span>$6</span></li>
-                  <li className="d-flex justify-content-between"><span>Scones</span><span>$5</span></li>
-                  <li className="d-flex justify-content-between"><span>Cookie bar</span><span>$5</span></li>
-                  <li className="d-flex justify-content-between"><span>Iced Cookie Bar</span><span>$6</span></li>
-                  <li className="d-flex justify-content-between"><span>Rice Krispie Treats</span><span>$5</span></li>
-                  <li className="d-flex justify-content-between"><span>Dessert cup</span><span>$6</span></li>
-                  <li className="d-flex justify-content-between"><span>Tandy Cake</span><span>$8</span></li>
-                </ul>
+                <div className="menu-item"><span className="item-name">Chocolate Chunk Brownie</span><span className="item-price">$6</span></div>
+                <div className="menu-item"><span className="item-name">Scones</span><span className="item-price">$5</span></div>
+                <div className="menu-item"><span className="item-name">Cookie Bar</span><span className="item-price">$5</span></div>
+                <div className="menu-item"><span className="item-name">Iced Cookie Bar</span><span className="item-price">$6</span></div>
+                <div className="menu-item"><span className="item-name">Rice Krispie Treats</span><span className="item-price">$5</span></div>
+                <div className="menu-item"><span className="item-name">Dessert Cup</span><span className="item-price">$6</span></div>
+                <div className="menu-item"><span className="item-name">Tandy Cake</span><span className="item-price">$8</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Notices */}
+        <div className="row mt-5" data-reveal>
+          <div className="col-12">
+            <div className="card flavor-card shadow-sm">
+              <div className="card-body p-4 text-center">
+                <p className="mb-2 small">
+                  Storefront flavors change weekly. Please check our{" "}
+                  <a href="https://www.facebook.com/yourpage" target="_blank" rel="noreferrer">Facebook</a> or{" "}
+                  <a href="https://instagram.com/baileysbakeshoppe" target="_blank" rel="noreferrer">Instagram</a>{" "}
+                  for weekly storefront flavors.
+                </p>
+                <p className="mb-0 small fw-bold" style={{ color: "var(--pink-600)" }}>
+                  All custom orders require at least 1 week notice with a 50% deposit at booking.
+                </p>
               </div>
             </div>
           </div>

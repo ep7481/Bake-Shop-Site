@@ -1,29 +1,30 @@
 export default function Hero() {
   return (
-    <header id="home" className="hero d-flex align-items-center text-center position-relative">
-      <div className="blob b1"></div>
-      <div className="blob b2"></div>
-
-      <div className="container position-relative" style={{ zIndex: 1 }}>
+    <header id="home" className="hero-section text-center position-relative">
+      <div className="container position-relative" style={{ zIndex: 2 }}>
         <img
           src="/logo.png"
-          alt="Bailey’s Bake Shoppe logo"
-          className="logo mb-3 sweet-zoom"
+          alt="Bailey's Bake Shoppe logo"
+          className="hero-logo mb-4"
           data-reveal
         />
 
-        <h1 className="display-5 fw-bold text-pink" data-reveal data-reveal-delay="100">
+        <h1 className="hero-title mb-3" data-reveal data-reveal-delay="100">
           Store Front Now Open!
         </h1>
 
-        <a
-          href="#menu"
-          data-reveal
-          data-reveal-delay="200"
-        >
-          View Menu
+        <p className="hero-subtitle mb-4" data-reveal data-reveal-delay="200">
+          Handcrafted cupcakes, cakes &amp; pastries in Lancaster County, PA
+        </p>
+
+        <a href="#menu" className="btn-hero" data-reveal data-reveal-delay="300">
+          View Our Menu
         </a>
       </div>
+
+      <svg className="hero-bottom-wave" viewBox="0 0 1440 120" preserveAspectRatio="none">
+        <path fill="#ffffff" d="M0,80 C480,0 960,120 1440,40 L1440,120 L0,120 Z" />
+      </svg>
     </header>
   );
 }
