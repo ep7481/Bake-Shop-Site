@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Block crawler-unfriendly paths (none currently, but reserved)
+Disallow: /thank-you.html
+
+# Sitemap
+Sitemap: https://baileysbakeshoppe.com/sitemap.xml
