@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-cream sticky-top shadow-sm">
+    <nav className="navbar navbar-expand-lg bg-cream sticky-top">
       <div className="container">
         <a className="navbar-brand d-flex align-items-center gap-2" href="#home">
           <img src="/logo.png" alt="Bailey’s Bake Shoppe" width="36" height="36" className="rounded-circle" />
@@ -14,6 +14,7 @@ export default function Navbar() {
             <li className="nav-item"><a className="nav-link" href="#menu">Menu</a></li>
             <li className="nav-item"><a className="nav-link" href="#gallery">Gallery</a></li>
             <li className="nav-item"><a className="nav-link" href="#hours">Hours</a></li>
+            <li className="nav-item"><a className="nav-link" href="#faq">FAQ</a></li>
             <li className="nav-item"><a className="nav-link" href="#contact">Order / Contact</a></li>
           </ul>
         </div>

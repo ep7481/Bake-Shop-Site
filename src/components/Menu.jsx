@@ -1,10 +1,11 @@
 export default function Menu() {
   return (
-    <section id="menu" className="py-5" style={{ backgroundColor: "var(--brand)" }}>
-
+    <section id="menu" className="py-5">
       <div className="container">
-        <div className="text-center mb-5">
-          <h2 className="fw-bold text-white">Menu & Prices</h2>
+        <div className="text-center mb-5" data-reveal>
+          <div className="section-eyebrow">Our Offerings</div>
+          <h2 className="section-title">Menu &amp; Prices</h2>
+          <p className="section-sub">All items baked fresh to order • Custom designs available</p>
         </div>
 
         {/* Flavors Section */}
@@ -83,10 +84,29 @@ export default function Menu() {
                   <li className="d-flex justify-content-between"><span>Scones</span><span>$5</span></li>
                   <li className="d-flex justify-content-between"><span>Cookie bar</span><span>$5</span></li>
                   <li className="d-flex justify-content-between"><span>Iced Cookie Bar</span><span>$6</span></li>
-                  <li className="d-flex justify-content-between"><span>Rice Krispie Treats</span><span>$5</span></li>
+                  <li className="d-flex justify-content-between"><span>Specialty Rice Krispie Treats</span><span>$5</span></li>
                   <li className="d-flex justify-content-between"><span>Dessert cup</span><span>$6</span></li>
                   <li className="d-flex justify-content-between"><span>Tandy Cake</span><span>$8</span></li>
                 </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Notices */}
+        <div className="row mt-5" data-reveal>
+          <div className="col-12">
+            <div className="card menu-notice shadow-sm">
+              <div className="card-body text-center">
+                <p className="mb-2 small">
+                  Storefront flavors change weekly. Please check our{" "}
+                  <a href="https://www.facebook.com/p/Baileys-Bake-Shoppe-61550014198722/" target="_blank" rel="noreferrer">Facebook</a> or{" "}
+                  <a href="https://instagram.com/baileysbakeshoppe" target="_blank" rel="noreferrer">Instagram</a>{" "}
+                  for weekly storefront flavors.
+                </p>
+                <p className="mb-0 small fw-bold notice-highlight">
+                  All custom orders require at least 1 week notice with a 50% deposit at booking.
+                </p>
               </div>
             </div>
           </div>

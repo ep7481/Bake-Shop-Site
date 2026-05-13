@@ -1,0 +1,21 @@
+{
+  "name": "Bailey’s Bake Shoppe",
+  "short_name": "Bailey’s",
+  "description": "Custom cakes, cupcakes, and pastries baked fresh in Willow Street, PA. Serving Lancaster, York, and Lancaster County.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fff8f3",
+  "theme_color": "#F0477A",
+  "lang": "en-US",
+  "categories": ["food", "shopping", "lifestyle"],
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

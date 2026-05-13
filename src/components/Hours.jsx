@@ -7,13 +7,14 @@ export default function Hours() {
           <div className="col-lg-6">
             <div className="card shadow-sm h-100">
               <div className="card-body">
-                <h2 className="fw-bold mb-3 text-pink">Hours & Location</h2>
+                <div className="section-eyebrow">Visit Us</div>
+                <h2 className="section-title mb-4">Hours &amp; Location</h2>
                 <ul className="list-unstyled small mb-4 ">
-                  <li><strong>Monday–Wednesday:</strong> CLOSED</li>
+                  <li><strong>Sunday–Tuesday:</strong> CLOSED</li>
+                  <li><strong>Wednesday:</strong> 7:00am–3:00pm</li>
                   <li><strong>Thursday:</strong> 7:00am–3:00pm</li>
                   <li><strong>Friday:</strong> 7:00am–3:00pm</li>
-                  <li><strong>Saturday:</strong> 8:00am–3:00pm</li>
-                  <li><strong>Sunday:</strong> 8:00am–12:00pm</li>
+                  <li><strong>Saturday:</strong> 8:00am–2:00pm</li>
                 </ul>
                 <p className="mb-1">
                   <a

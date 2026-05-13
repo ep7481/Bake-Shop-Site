@@ -5,6 +5,7 @@ import About from "./components/About.jsx";
 import Menu from "./components/Menu.jsx";
 import Gallery from "./components/Gallery.jsx";
 import Hours from "./components/Hours.jsx";
+import FAQ from "./components/FAQ.jsx";
 import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 
@@ -40,9 +41,9 @@ export default function App() {
       <Navbar />
       <Hero />
       <Menu />
-      <hr />
       <Gallery />
       <Hours />
+      <FAQ />
       <Contact />
       <Footer />
     </>

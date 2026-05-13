@@ -6,14 +6,17 @@ export default function Contact() {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8">
-            <h2 className="fw-bold mb-3 text-center text-cream">Get in touch</h2>
-            <p className="text-center mb-4">
-              For orders email{" "}
-              <a className="text-cream" href="mailto:bailey@baileysbakeshoppe.com">
-                bailey@baileysbakeshoppe.com
-              </a>{" "}
-              or use the form below.
-            </p>
+            <div className="text-center mb-4">
+              <div className="section-eyebrow" style={{ color: "rgba(255,255,255,0.85)" }}>Contact</div>
+              <h2 className="section-title text-cream">Get in touch</h2>
+              <p className="mb-0">
+                For orders email{" "}
+                <a className="text-cream" href="mailto:bailey@baileysbakeshoppe.com">
+                  bailey@baileysbakeshoppe.com
+                </a>{" "}
+                or use the form below.
+              </p>
+            </div>
 
             {/* FormSubmit-powered form (no JS required, works on GitHub Pages) */}
             <form

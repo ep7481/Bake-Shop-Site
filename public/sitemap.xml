@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+>
+  <url>
+    <loc>https://baileysbakeshoppe.com/</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://baileysbakeshoppe.com/logo.png</image:loc>
+      <image:title>Bailey’s Bake Shoppe logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://baileysbakeshoppe.com/gallery1.jpeg</image:loc>
+      <image:title>Assorted sweet treats from Bailey’s Bake Shoppe</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://baileysbakeshoppe.com/gallery2.jpeg</image:loc>
+      <image:title>Decorated cake with colorful icing</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://baileysbakeshoppe.com/gallery3.jpeg</image:loc>
+      <image:title>Fresh baked cookies displayed on a tray</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://baileysbakeshoppe.com/gallery4.jpeg</image:loc>
+      <image:title>Custom cupcakes from Bailey’s Bake Shoppe</image:title>
+    </image:image>
+  </url>
+</urlset>
